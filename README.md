@@ -8,11 +8,11 @@ Detectar en las imágenes si existe la presencia de distintos tipos de malaria o
 - [Datos](#datos)
 - [Metodología](#metodología)
 - [Resultados](#resultados)
-- [Conclusión](#conclusión)
 
 ## Datos 
 - El dataset utilizado proviene de "Kaggle", el dataser se llama [Lacuna Malaria Detection Challenge Dataset](https://www.kaggle.com/datasets/rajsahu2004/lacuna-malaria-detection-dataset/data).
 - El dataset cuenta con 2747 imágenes en el archivo Train y 1178 imágenes en el de Test.
+- En total hay 3 clases: "NEG" (Negativo), "WBC" (White Blood Cells) y "Trophozoite" (Trofozoíto).
 - Las imágenes vienen todas juntas, en los archivos de excel es donde los de Train vienen con sus etiquetas y los de Train no.
 
 ![Dataset](Imágenes/Dataset.png)
@@ -51,12 +51,9 @@ Detectar en las imágenes si existe la presencia de distintos tipos de malaria o
 
 ### 7. Probar el Modelo 
 - Para finalizar se utilizó los datos de Test para predecir las clases a las que pertenecerían.
-- Se guardó los resultados en su mismo dataframe y se agregó el porcentaje de confianza de la predicción.
+- Se guardó los resultados en su mismo dataframe y se agregó el porcentaje de confianza de las predicciones.
 
-## Resultados (Falta)
-- Se identificó los patrones de comportamiento de compra de los clientes.
-- Se clasificó a los clientes en diferentes grupos según su valor monetario, frecuencia de compra y recencia.
-- También se determinó qué acciones realizar para cada grupo de clientes.
+## Resultados
+- Se pudo reducir la cantidad de datos para entrenar sin que afecte el rendimiento. 
+- Se logró crear un modelo que pueda clasificar de manera decente las diferentes imágenes.
 
-## Conclusión (Falta)
-El análisis de datos permitió clasificar a los clientes en grupos distintos, lo cual puede ayudar a diseñar diferentes estrategias para atraer o mantener a los clientes.  
