@@ -1,7 +1,7 @@
 # Clasificación de Malaria
 
 ## Descripción:
-Detectar en las imágenes si existe la presencia de distintos tipos de malaria o no, haciendo uso de una Red Neuronal Convolucional (CNN).
+Ente proyecto tiene como objetivo el detectar en las imágenes si existe la presencia de malaria o no en la sangre, haciendo uso de una Red Neuronal Convolucional (CNN).
 
 
 ## Tabla de Contenidos 
